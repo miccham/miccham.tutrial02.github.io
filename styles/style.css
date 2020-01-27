@@ -22,6 +22,7 @@ header {
 .header-container .logo {
   width: 60px;
   height: 60px;
+  margin-left: 10px;
 }
 
 .header-container ul {
@@ -33,10 +34,6 @@ header {
 
 .header-container li {
   margin-right: 20px;
-}
-
-.header-container li:last-child {
-  margin-right: 0;
 }
 
 .header-container a {
@@ -75,13 +72,6 @@ header {
           align-items: center;
   color: #fff;
   text-shadow: 0.2px 5px rgba(255, 255, 255, 0.1);
-}
-
-.keyvisual-container h1 {
-  /*title*/
-  font-weight: bold;
-  font-size: 80px;
-  margin-bottom: 30px;
 }
 
 .keyvisual-container h2 {
@@ -223,57 +213,6 @@ header {
 .video-container li frame {
   width: 400px;
   height: 200px;
-}
-
-.history {
-  background-color: black;
-}
-
-.history-container h2 {
-  color: #fff;
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 30px;
-  text-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
-}
-
-.history-container ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.history-container a {
-  display: block;
-  width: 200px;
-  height: 150px;
-  line-height: 150px;
-  background-color: #0f22c7;
-  border-radius: 3px;
-  margin-right: 20px;
-  font-size: 22px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  text-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
-}
-
-.history-container a:hover {
-  opacity: .8;
-}
-
-.history-container .history-image {
-  color: #fff;
-}
-
-.history-container li:last-child {
-  margin-right: 0;
 }
 
 .access {
